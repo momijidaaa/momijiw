@@ -259,6 +259,17 @@ button,
   border-radius: 1.5rem;
   object-fit: cover;
   aspect-ratio: 4 / 3;
+  min-height: 190px;
+  background: linear-gradient(135deg, rgba(56, 103, 214, 0.12), rgba(79, 126, 244, 0.08));
+}
+
+.profile-card,
+.gallery-card {
+  overflow: hidden;
+}
+
+.gallery-card p {
+  margin: 1rem 0 0;
 }
 
 .feature-card h3 {
